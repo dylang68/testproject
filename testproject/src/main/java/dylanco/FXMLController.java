@@ -21,6 +21,10 @@ public class FXMLController implements Initializable {
     private void btnClickAction(ActionEvent event) {
         lblOut.setText("Hello World!");
     }
+
+    private void method() {
+        int test = 2;
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
