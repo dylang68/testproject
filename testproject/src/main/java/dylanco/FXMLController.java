@@ -26,6 +26,10 @@ public class FXMLController implements Initializable {
         int test = 2;
     }
 
+    private void finalMethod() {
+        //exits program
+        System.exit(0);
+
     private void newMethod() {
         String message = "My message!";
     }
