@@ -26,8 +26,9 @@ public class FXMLController implements Initializable {
         int test = 2;
     }
 
-    private void secondMethod() {
-        String message = "My message!";
+    private void finalMethod() {
+        //exits program
+        System.exit(0);
     }
     
     @Override
