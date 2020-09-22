@@ -29,6 +29,9 @@ public class FXMLController implements Initializable {
     private void finalMethod() {
         //exits program
         System.exit(0);
+
+    private void newMethod() {
+        String message = "My message!";
     }
     
     @Override
