@@ -25,6 +25,10 @@ public class FXMLController implements Initializable {
     private void method() {
         int test = 2;
     }
+
+    private void newMethod() {
+        String message = "My message!";
+    }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
